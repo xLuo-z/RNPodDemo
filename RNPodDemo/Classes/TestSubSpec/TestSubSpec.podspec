@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TestSubSpec"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of TestSubSpec."
   spec.description  = "TestSubSpec"
   spec.homepage     = "https://github.com/xLuo-z/RNPodDemo.git"
