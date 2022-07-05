@@ -1,0 +1,6 @@
+framework module RNPodDemo {
+  umbrella header "RNPodDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

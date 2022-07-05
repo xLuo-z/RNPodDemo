@@ -8,6 +8,5 @@ target 'RNPodDemo_Example' do
   target 'RNPodDemo_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
