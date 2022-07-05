@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RNPodDemo'
-  s.version          = '0.0.1'
+  s.version          = '0.0.6'
   s.summary          = 'A short description of RNPodDemo.'
   s.description      = "RNPodDemo"
   s.homepage         = 'https://github.com/xLuo-z/RNPodDemo.git'
@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'RNPodDemo/Classes/**/*'
+  s.exclude_files = 'RNPodDemo/Classes/TestSubSpec/*'
 end
