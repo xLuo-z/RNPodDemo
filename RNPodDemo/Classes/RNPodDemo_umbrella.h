@@ -6,4 +6,3 @@
 //
 
 #import <RNPodDemo/RNPodDemoTest.h>
-#import <RNPodDemo/RNTextSubSpec.h>
