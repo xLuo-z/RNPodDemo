@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TestSubSpec"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of TestSubSpec."
   spec.description  = "TestSubSpec"
   spec.homepage     = "https://github.com/xLuo-z/RNPodDemo.git"
@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/xLuo-z/RNPodDemo.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '10.0'
 
-  spec.source_files  = "*.{h,m}"
+  spec.source_files  = "RNPodDemo/Classes/TestSubSpec/*.{h,m}"
 
 end
