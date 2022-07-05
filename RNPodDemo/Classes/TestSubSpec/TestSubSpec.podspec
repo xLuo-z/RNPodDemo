@@ -17,6 +17,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "罗静" => "1115658829@qq.com" }
 
   spec.source       = { :git => "https://github.com/xLuo-z/RNPodDemo.git", :tag => "#{spec.version}" }
+  spec.ios.deployment_target = '10.0'
 
   spec.source_files  = "*.{h,m}"
 
